@@ -19,7 +19,7 @@ npm install angular-chrome-i18n --save
 
 #### As a filter (Recomended)
 
-Include the filter module file. `angular-chrome-i18n_filter.js`
+Include the filter module file `angular-chrome-i18n_filter.js`.
 
 Inject into your angular module
 
@@ -47,7 +47,7 @@ app.controller('MyController', function ($filter) {
 
 #### As a directive
 
-Include the directive module file. `angular-chrome-i18n_directive.js`
+Include the directive module file `angular-chrome-i18n_directive.js`.
 
 Inject into your angular module
 

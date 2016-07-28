@@ -24,7 +24,7 @@ Include the filter module file. `angular-chrome-i18n_filter.js`
 Inject into your angular module
 
 ``` js
-angular.module('MyApp', ['angular-chrome-i18n_filter']);
+angular.module('MyApp', ['angular-chrome-i18n.filter']);
 ```
 
 Use in your template...
@@ -47,13 +47,22 @@ app.controller('MyController', function ($filter) {
 
 #### As a directive
 
-Apply the `i18n`directive passing a message key. E.g.
+Include the directive module file. `angular-chrome-i18n_directive.js`
+
+Inject into your angular module
+
+``` js
+angular.module('MyApp', ['angular-chrome-i18n.directive']);
+```
+
+Apply the `i18n`directive passing a message key to search. E.g.
 
 ``` html
 <header>
   <h2 i18n="welcomeText"></h2>
 </header>
 ```
+
 
 ### Development
 

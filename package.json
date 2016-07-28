@@ -1,0 +1,22 @@
+{
+  "name": "angular-chrome-i18n",
+  "version": "1.0.0",
+  "description": "Make life easier centralizing translations of Chrome apps that use Angular.",
+  "main": "angular-chrome-i18n_directive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielGil/angular-chrome-i18n.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Gabriel Gil <hello@gabrielgil.es>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielGil/angular-chrome-i18n/issues"
+  },
+  "homepage": "https://github.com/GabrielGil/angular-chrome-i18n#readme"
+}

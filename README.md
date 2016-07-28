@@ -6,11 +6,28 @@ internationalizated `messages.json` file used for Chrome Apps and Extentions.
 Reference: https://developer.chrome.com/apps/i18n
 
 
+### Install
+
+It is a standard but no readme is complete with a reference to NPM.
+
+``` bash
+npm install angular-chrome-i18n --save
+```
+
+
 ### Usage
 
 #### As a filter (Recomended)
 
-In yout template
+Include the filter module file. `angular-chrome-i18n_filter.js`
+
+Inject into your angular module
+
+``` js
+angular.module('MyApp', ['angular-chrome-i18n_filter']);
+```
+
+Use in your template...
 
 ``` html
 <div>
@@ -20,7 +37,7 @@ In yout template
 </div>
 ```
 
-In Javascript
+...or in your Javascript
 
 ``` js
 app.controller('MyController', function ($filter) {

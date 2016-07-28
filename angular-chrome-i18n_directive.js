@@ -3,7 +3,7 @@ angular.module('angular-chrome-i18n.directive', [])
 
 /**
  * @ngdoc directive
- * @name i18n
+ * @name angular-chrome-i18n.directive.i18n
  *
  * @description
  * Replaces the content of the element with the message translation text

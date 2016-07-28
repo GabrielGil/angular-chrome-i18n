@@ -37,3 +37,9 @@ Apply the `i18n`directive passing a message key. E.g.
   <h2 i18n="welcomeText"></h2>
 </header>
 ```
+
+### Development
+
+So maybe you care, this is the
+[c9 development environment](https://ide.c9.io/gabrielgil/angular-chrome-i18n)
+I used to create this.
